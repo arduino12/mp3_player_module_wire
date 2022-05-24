@@ -1,0 +1,54 @@
+#######################################
+# Syntax Coloring Map dy_sv17f_wire
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+DY_SV17F_Wire	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+begin			KEYWORD2
+play			KEYWORD2
+pause			KEYWORD2
+stop			KEYWORD2
+prev			KEYWORD2
+next			KEYWORD2
+next_dir		KEYWORD2
+prev_dir		KEYWORD2
+set_track_index	KEYWORD2
+set_volume		KEYWORD2
+set_eq			KEYWORD2
+set_play_mode	KEYWORD2
+set_channel		KEYWORD2
+set_storage		KEYWORD2
+sleep			KEYWORD2
+stop2			KEYWORD2
+_write_byte		KEYWORD2
+_send_cmd		KEYWORD2
+_write_num		KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+MIN_VOLUME				LITERAL1
+MAX_VOLUME				LITERAL1
+EQ_NORMAL				LITERAL1
+EQ_POP					LITERAL1
+EQ_ROCK					LITERAL1
+EQ_JAZZ					LITERAL1
+EQ_CLASSIC				LITERAL1
+PLAY_ALL_REPEAT			LITERAL1
+PLAY_TRACK_REPEAT		LITERAL1
+PLAY_TRACK				LITERAL1
+PLAY_RANDOM_TRACKS		LITERAL1
+PLAY_DIR_REPEAT			LITERAL1
+PLAY_DIR_RANDOM_TRACKS	LITERAL1
+PLAY_DIR_SEQUENCE		LITERAL1
+PLAY_ALL_SEQUENCE		LITERAL1
+STORAGE_SD				LITERAL1
+STORAGE_USB_DISK		LITERAL1
+STORAGE_FLASH			LITERAL1

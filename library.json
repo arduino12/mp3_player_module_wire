@@ -1,0 +1,22 @@
+{
+  "name": "mp3_player_module_wire",
+  "version": "1.0.0",
+  "keywords": "DY_SV17F, JQ8400, mp3, player, OneWire, one_wire, OneLine, one_line",
+  "description": "A simple library to interface with mp3 player modules (DY_SV17F, JQ8400) using 1 wire.",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/arduino12/mp3_player_module_wire.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Arad Eizen",
+      "email": "https://github.com/arduino12",
+      "url": "https://github.com/arduino12",
+	  "maintainer": true
+    }
+  ],
+  "frameworks": "arduino",
+  "platforms": "*"
+}
