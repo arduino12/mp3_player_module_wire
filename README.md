@@ -2,7 +2,7 @@
 A simple library to interface with mp3 player modules ([DY_SV17F](https://attach01.oss-us-west-1.aliyuncs.com/IC/Datasheet/13288.pdf), [JQ8400](https://sparks.gogo.co.nz/assets/_site_/downloads/JQ8400_English.pdf)) using 1 wire.
 
 ## Features
-* Low current sonsumption sleep mode for JQ8600 - 140uA!
+* Low current consumption sleep mode for JQ8600 - **140uA!**
 * Basic player commands (`play`, `pause`, `set_volume`, `set_track_index`...).
 * Internally fix weird behaviour of `prev_dir` and `set_play_mode`.
 * Requires only one GPIO pin (used only as OUTPUT) - can be any pin.
