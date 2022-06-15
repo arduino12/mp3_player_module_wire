@@ -17,7 +17,7 @@
  * https://github.com/arduino12/mp3_player_module_wire
  */
 #include <Arduino.h>
-#include "mp3_player_module_wire.h"
+#include <mp3_player_module_wire.h>
 
 #define PLAYER_WIRE_PIN					(4)		// connect to ONE_LINE
 #define PLAYER_SD_PIN					(6)		// connect to audio amplifier SD (shutdown) pin (must lift it because PCB shorts it to GND)

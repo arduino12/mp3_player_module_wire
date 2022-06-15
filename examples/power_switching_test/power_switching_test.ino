@@ -16,7 +16,7 @@
  * https://github.com/arduino12/mp3_player_module_wire
  */
 #include <Arduino.h>
-#include "mp3_player_module_wire.h"
+#include <mp3_player_module_wire.h>
 
 #define PLAYER_WIRE_PIN					(4)		// connect to ONE_LINE
 #define PLAYER_FET_PIN					(6)		// connect to N-FET gate via 1K resistor

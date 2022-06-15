@@ -15,7 +15,7 @@
  * https://github.com/arduino12/mp3_player_module_wire
  */
 #include <Arduino.h>
-#include "mp3_player_module_wire.h"
+#include <mp3_player_module_wire.h>
 
 #define PLAYER_WIRE_PIN					(4)
 #define PLAYER_BUSY_PIN					(5)
@@ -32,7 +32,7 @@ void wait_for_end_of_track()
 	}
 	delay(300);					// may need to increase if using large track files or other storage
 #else
-	delay(2000);                // no way of knowing when the track ends
+	delay(2000);				// no way of knowing when the track ends
 #endif
 }
 

@@ -14,7 +14,7 @@
  * https://github.com/arduino12/mp3_player_module_wire
  */
 #include <Arduino.h>
-#include "mp3_player_module_wire.h"
+#include <mp3_player_module_wire.h>
 
 #define PLAYER_WIRE_PIN					(4)
 
